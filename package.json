@@ -1,0 +1,7 @@
+{
+  "name": "campusloop",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {"dev": "concurrently \"npm:server\" \"npm:client\"", "server": "npm --prefix server run dev", "client": "npm --prefix client run dev", "db:init": "npm --prefix server run db:init", "seed": "npm --prefix server run seed", "test": "npm --prefix server test"},
+  "devDependencies": {"concurrently": "^9.1.2"}
+}

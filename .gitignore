@@ -1,0 +1,13 @@
+node_modules/
+client/node_modules/
+server/node_modules/
+client/dist/
+.env
+server/.env
+uploads/
+server/storage/
+storage/
+mongo-export/
+campusloop-mongo.archive.gz
+*.log
+CampusLoop-pre-upgrade-backup.zip
